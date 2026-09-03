@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Seaside Sourdough | Artisan Bakery Brighton</title>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:system-ui,-apple-system,sans-serif;line-height:1.6;color:#1a1a1a;background:#fafafa}
+  .container{max-width:640px;margin:0 auto;padding:0 16px}
+  header{background:#1a1a1a;color:#fff;padding:48px 0;text-align:center}
+  header h1{font-size:32px;font-weight:600;margin-bottom:8px}
+  header p{font-size:16px;opacity:.85}
+  section{padding:32px 16px;border-bottom:1px solid #e5e5e5}
+  section:last-child{border-bottom:none}
+  h2{font-size:20px;font-weight:600;margin-bottom:12px}
+  p,li{font-size:15px;color:#444;line-height:1.7}
+  ul{list-style:none;padding:0}
+  li{padding:10px 0;border-bottom:1px solid #eee;display:flex;justify-content:space-between}
+  li:last-child{border-bottom:none}
+  .price{font-weight:600;color:#1a1a1a}
+  .hours{display:grid;grid-template-columns:1fr 1fr;gap:8px 24px}
+  .hours div{display:flex;justify-content:space-between;padding:6px 0;border-bottom:1px solid #eee;font-size:14px}
+  .hours div:nth-last-child(-n+2){border-bottom:none}
+  .badge{display:inline-block;background:#e8f5e9;color:#2e7d32;padding:4px 12px;border-radius:4px;font-size:13px;font-weight:500;margin-top:12px}
+  .btn{display:inline-block;padding:12px 24px;background:#1a1a1a;color:#fff;text-decoration:none;border-radius:8px;font-size:14px;font-weight:500;margin-top:16px}
+  .btn:hover{opacity:.9}
+  .btn-outline{background:transparent;color:#1a1a1a;border:1px solid #1a1a1a;margin-left:8px}
+  .contact{margin-top:12px;font-size:14px;color:#666}
+  footer{text-align:center;padding:24px;font-size:13px;color:#999}
+</style>
+</head>
+<body>
+<header>
+  <div class="container">
+    <h1>Seaside Sourdough</h1>
+    <p>Artisan sourdough baked fresh every morning in Brighton</p>
+    <span class="badge">Vegan options available</span>
+  </div>
+</header>
+
+<div class="container">
+  <section>
+    <h2>About us</h2>
+    <p>We are a micro-bakery based at Brighton Open Market, specialising in long-fermented sourdough loaves, focaccia, and cinnamon rolls. Every loaf is hand-shaped and baked in small batches using organic flour from Shipton Mill.</p>
+  </section>
+
+  <section>
+    <h2>Our breads</h2>
+    <ul>
+      <li>Classic country sourdough <span class="price">£4.50</span></li>
+      <li>Olive & rosemary focaccia <span class="price">£3.80</span></li>
+      <li>Seeded rye loaf <span class="price">£5.00</span></li>
+      <li>Vegan cinnamon rolls <span class="price">£2.50</span></li>
+      <li>Weekend special: walnut & fig <span class="price">£5.50</span></li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Opening hours</h2>
+    <div class="hours">
+      <div><span>Monday</span><span>Closed</span></div>
+      <div><span>Tuesday</span><span>9am – 3pm</span></div>
+      <div><span>Wednesday</span><span>9am – 3pm</span></div>
+      <div><span>Thursday</span><span>9am – 3pm</span></div>
+      <div><span>Friday</span><span>9am – 4pm</span></div>
+      <div><span>Saturday</span><span>8am – 5pm</span></div>
+      <div><span>Sunday</span><span>Closed</span></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Find us</h2>
+    <p>Brighton Open Market, Marshalls Row, Brighton BN1 4JU</p>
+    <p class="contact">📞 01273 000 001</p>
+    <a href="#" class="btn">Pre-order for Saturday pickup</a>
+    <a href="#" class="btn btn-outline">Get directions</a>
+  </section>
+</div>
+
+<footer>
+  <p>© 2026 Seaside Sourdough • Brighton Open Market</p>
+</footer>
+</body>
+</html>
